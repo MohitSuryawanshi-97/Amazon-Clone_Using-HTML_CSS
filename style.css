@@ -6,9 +6,11 @@
 }
 
 .navbar{
+    display: flex;
     height: 60px;
     background-color: #0f1111;
     color: white;
+    align-items: center;
 }
 .nav-logo{
     height: 50px;
@@ -26,4 +28,34 @@
 }
 .border:hover{
     border: 1.5px solid white;
+}
+
+/** box 2 **/
+.address-first{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.address-second{
+    margin-left: 3px;
+    color: white;
+    font-size: 1rem;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/** Box 3 **/
+.nav-search{
+    display: flex;
+    background-color: yellow;
+    width: 620px;
+    height: 40px;
+    border-radius:4px ;
+}
+
+.search-select{
+    background-color: #f3f3f3;
 }
