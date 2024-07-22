@@ -211,8 +211,8 @@ footer{
     display: flex;
     justify-content: space-evenly;
     background-color:#222f3d ;
-    color: white;
-    height: 500px;
+    color: white;   
+    height: 300px;
 }
 
 ul{
@@ -222,13 +222,13 @@ ul{
 
 ul a {
     display: block;
-    font-size: 0.85px;
+    font-size: 0.85rem;
     margin-top: 10px;
     color: #dddd;
 } 
 
 
-.foot-panel3{
+.foot-panel3    {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,6 +242,22 @@ ul a {
     background-image: url(./images/amazon_logo.png);
     background-size: cover;
     height: 60px;
-    width: 100%;
     width: 100px;
+}
+
+.foot-panel4{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 0.7rem;
+    text-align: center;
+    height:80px;
+    color: white;
+    background-color: #0f1111;
+}
+.pages{
+padding-top: 25px;
+}
+.copyright{
+    padding-top:5px;
 }
